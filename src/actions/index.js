@@ -20,7 +20,6 @@ export const fetchListJson = () => {
 };
 
 export const addItem = (value) => {
-    console.log(value);
     return (dispatch) => {
         return axios.post('http://localhost:3001/List', {
             name: value

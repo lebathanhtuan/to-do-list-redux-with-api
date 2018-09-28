@@ -56,8 +56,8 @@ class ListItem extends Component {
     }
 
     onClickEditItem(){
-        this.props.editItem(this.props.idItem, this.state.name)
-        this.onClickButtonSave()
+        this.props.editItem(this.props.idItem, this.state.name);
+        this.onClickButtonSave();
     }
 
     getNameItem(e){
